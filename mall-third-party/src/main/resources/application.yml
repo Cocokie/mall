@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: mall-third-party
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.56.10:8848
+server:
+  port: 30000
+alibaba:
+  cloud:
+    access-key: LTAI4GBtU1zzQgWdAtBK3gNQ
+    secret-key: oTetkyLnTawbVVUv4If5tqeyhaxf2p
+    oss:
+      endpoint: oss-cn-beijing.aliyuncs.com
+ali:
+  oss:
+   bucket: lx-mallc
